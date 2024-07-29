@@ -1,0 +1,38 @@
+
+.patient-registration {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-registration h1 {
+    margin-top: 0;
+  }
+  
+  .patient-registration label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .patient-registration input,.patient-registration textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .patient-registration button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .patient-registration button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
